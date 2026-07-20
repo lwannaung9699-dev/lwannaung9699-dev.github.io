@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Space Story Auto Poster</title>
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; margin: 0; color: #1a1a1a; background: #fafafa; }
+  header { background: #0d0a26; color: #fff; padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+  header .brand { font-weight: 700; font-size: 1.15em; }
+  nav a { color: #cfd3ff; text-decoration: none; margin-left: 20px; font-size: 0.95em; }
+  nav a:hover, nav a.active { color: #fff; text-decoration: underline; }
+  .hero { background: linear-gradient(160deg, #1b1440, #0d0a26); color: #fff; padding: 60px 24px; text-align: center; }
+  .hero h1 { font-size: 2.1em; margin-bottom: 0.3em; }
+  .hero p { color: #cfd3ff; font-size: 1.1em; max-width: 620px; margin: 0 auto; }
+  main { max-width: 860px; margin: 0 auto; padding: 40px 20px; }
+  h2 { font-size: 1.4em; margin-top: 2.2em; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 1.2em; }
+  .card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 18px 20px; }
+  .card h3 { margin: 0 0 8px; font-size: 1.05em; }
+  .card p { margin: 0; color: #555; font-size: 0.95em; }
+  .embed-wrap { display: flex; justify-content: center; margin: 2em 0; }
+  footer { text-align: center; padding: 30px 20px; color: #777; font-size: 0.9em; border-top: 1px solid #eee; margin-top: 40px; }
+  footer a { color: #555; margin: 0 10px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">🪐 Space Story Auto Poster</div>
+  <nav>
+    <a href="./index.html" class="active">Home</a>
+    <a href="./how-it-works.html">How It Works</a>
+    <a href="./sample-content.html">Sample Content</a>
+    <a href="./terms.html">Terms</a>
+    <a href="./privacy.html">Privacy</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Automated space &amp; astronomy videos, published straight to TikTok</h1>
+  <p>A personal automation tool that writes, illustrates, narrates, and publishes short-form educational videos about space — on a fixed schedule, to a single authorized TikTok account.</p>
+</div>
+
+<main>
+  <h2>What this app does</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>📝 Script generation</h3>
+      <p>An AI language model writes a short narrated script for each space topic, structured into a multi-part series.</p>
+    </div>
+    <div class="card">
+      <h3>🎨 Scene illustration</h3>
+      <p>An AI image model generates a matching cinematic visual for every scene in the script.</p>
+    </div>
+    <div class="card">
+      <h3>🎙️ Voice narration</h3>
+      <p>Text-to-speech turns each scene's script into natural spoken narration.</p>
+    </div>
+    <div class="card">
+      <h3>🎬 Video assembly</h3>
+      <p>Scenes are combined into one vertical video with captions, background music, and smooth transitions.</p>
+    </div>
+    <div class="card">
+      <h3>📤 Publishing</h3>
+      <p>The finished video is uploaded directly to the authorized TikTok account via TikTok's official Content Posting API.</p>
+    </div>
+    <div class="card">
+      <h3>👤 Single-user only</h3>
+      <p>This tool serves only its own developer's TikTok account. It does not act on behalf of any other user.</p>
+    </div>
+  </div>
+
+  <h2>See it live</h2>
+  <p>Every video on this profile was produced end-to-end by this automation - script, images, narration, and publishing, with no manual editing.</p>
+  <div class="embed-wrap">
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@myo.ko4937" data-unique-id="myo.ko4937" data-embed-type="creator" style="max-width: 780px; min-width: 288px;">
+      <section>
+        <a target="_blank" href="https://www.tiktok.com/@myo.ko4937?refer=creator_embed">@myo.ko4937</a>
+      </section>
+    </blockquote>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+  </div>
+
+  <h2>Learn more</h2>
+  <p>Read a full technical breakdown on the <a href="./how-it-works.html">How It Works</a> page, or see individual video examples on the <a href="./sample-content.html">Sample Content</a> page.</p>
+</main>
+
+<footer>
+  <div>
+    <a href="./how-it-works.html">How It Works</a>
+    <a href="./sample-content.html">Sample Content</a>
+    <a href="./terms.html">Terms of Service</a>
+    <a href="./privacy.html">Privacy Policy</a>
+  </div>
+  <div style="margin-top:10px;">© 2026 Space Story Auto Poster</div>
+</footer>
+
+</body>
+</html>
